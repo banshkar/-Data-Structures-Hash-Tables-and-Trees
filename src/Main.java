@@ -5,5 +5,6 @@ public class Main {
         tree.insert(20);
         tree.insert(30);
         tree.traverseInOrder(tree.root);
+        tree.SearchNode(40);
     }
 }
