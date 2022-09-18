@@ -4,5 +4,6 @@ public class Main {
         tree.insert(10);
         tree.insert(20);
         tree.insert(30);
+        tree.traverseInOrder(tree.root);
     }
 }

@@ -21,4 +21,11 @@ public class BinarySearchTree{
     public  void insert(int data){
         root=addRecursive(root,data);
     }
+    public void traverseInOrder(MyNode node) {
+        if (node != null) {
+            traverseInOrder(node.left);
+            System.out.print(" " + node.data);
+            traverseInOrder(node.right);
+        }
+    }
 }
